@@ -1,0 +1,35 @@
+<div class="container-fluid">
+  <div class="row grey-bg">
+    <div class="col-md-12">
+      <div class="row">
+        <!-- <div class="col-md-4"></div> -->
+        <div ng-repeat="user in $ctrl.users" class="col-md-4 col-md-offset-4 body-bg margin-bottom">
+          <div class="row header-bg">
+            <h1 class="text-center grey-font"> {{user.name}} </h1>
+            <h4 class="text-center lightblue-font"> {{user.company}}</h4>
+          </div>
+          <div class="row md-top-margin navblue-font">
+            <p class="margin-left-p">
+              {{user.about}}
+            </p>
+            <h5 class="margin-left-p">
+              Favourite fruit is <b>{{user.favoriteFruit}}</b>
+            </h5>
+          </div>
+
+          <div ng-if="user.friends.length>0" style="margin-left:5px">
+            <friends-list friends="user.friends"></friends-list>
+          </div>
+          <div ng-if="user.tags.length > 0" class="row md-top-margin margin-bottom">
+            <h4 class="margin-left-p navblue-font lg-top-margin"> Tags </h4>
+            <div ng-repeat="tag in user.tags track by $index" class="col-md-4 text-center margin-bottom-sm">
+              <div class="badge lblue-bg min-width-span navblue-font badge-blue-border">
+                {{tag}}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

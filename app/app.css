@@ -1,0 +1,71 @@
+.text-center {
+    text-align: center;
+}
+
+.md-top-margin {
+  margin-top: 20px;
+}
+
+.lg-top-margin {
+  margin-top: 40px;
+}
+
+.lblue-bg {
+  /*background-color: #6c95a9;*/
+  background-color: #a5bfd0
+}
+.min-width-span{
+  min-width:40px
+}
+.blue-bg{
+  background-color: #185fad;
+}
+.friends-margin{
+    margin-left: 10px;
+}
+
+.header-bg {
+  background-color: #293752;
+}
+
+.grey-font {
+  color: #e6e6e6;
+}
+
+.grey-bg{
+  background-color: #a0a0a0;
+}
+
+.navblue-font{
+  color: #293752
+}
+
+.lgrey-font {
+  color: #e6e6e6
+}
+
+.lightblue-font{
+  color: #a5bfd0
+}
+
+.body-bg {
+  background-color: #e6e6e6;
+}
+
+.badge-blue-border {
+  border-style: solid;
+  border-width: thin;
+  border-color: #293752;
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
+}
+
+.margin-bottom-sm {
+  margin-bottom: 5px;
+}
+
+.margin-left-p {
+  margin-left: 20px;
+}
