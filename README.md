@@ -2,7 +2,7 @@
 Reads a file from the users directory and displays it. Focus is on component
 structure which makes it scalable
 ## Installation
-1) l  clone it from github
+1)   clone it from github
 ex) git clone https://github.com/vkhattar/pitstopTest.git
 
 2) Install node modules
